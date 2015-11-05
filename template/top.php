@@ -65,7 +65,7 @@
             <div class="col-md-4 pesquisa-box-all">
                 <div class="col-md-12 pesquisa-box-t" style="padding-left: 0px; padding-right: 0px;" >
                     <div class="input-group pesquisa-box-input-bt">
-                        <input type="text" class="form-control" placeholder="Pesquisar...">
+                        <input type="text" class="form-control" placeholder="Pesquisar em nosso site...">
                         <span class="input-group-btn">
                         <button class="btn btn-default" type="button"><img src="img/pesq-3.png" alt=""/></button>
                         </span>
