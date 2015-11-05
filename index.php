@@ -21,7 +21,7 @@ include_once "template/modal.php"
                         <div class="col-md-12">
                             <div class="panel panel-primary">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">Menu vagas - pesquisa</h3>
+                                    <h3 class="panel-title">Menu vagas</h3>
                                 </div>
                                 <div class="panel-body painel-menu">
                                     <ul class="nav">
