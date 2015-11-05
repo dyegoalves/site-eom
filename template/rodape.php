@@ -4,9 +4,9 @@
             <div id="rodape-logo-all" class="col-sm-6 rodape-logo-all">
                <p><span> EOM  </span>© 2015 | PRIVACY POLICY</p>
                 <p>Entre em contato:</p>
-                <p>Email: Dyego.santos.alves@gmail.com</p>
-                <p>Grupo Facebook: https://www.facebook.com/groups/manaus.eom</p>
-                <p>Skype: env.dyegoalves</p>
+                <p><i class="fa fa-envelope"></i> Email: Dyego.santos.alves@gmail.com</p>
+                <p><i class="fa fa-facebook-official"></i> Grupo Facebook: https://www.facebook.com/groups/manaus.eom</p>
+                <p><i class="fa fa-skype"></i> Skype: env.dyegoalves</p>
             </div>
             <div id="rodape-menu-all" class="col-sm-1 rodape-espaco"></div>
             <div id="rodape-menu-all" class="col-sm-6 rodape-menu-all">
