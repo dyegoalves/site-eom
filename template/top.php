@@ -12,6 +12,7 @@
     <!-- Bootstrap core CSS -->
     <!--<link href="css/bootstrap-theme.min.css" rel="stylesheet">-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
 
 </head>
