@@ -254,7 +254,7 @@ body{
       }
     }
 }
-/* REGRAS DE MEDIAS */
+/* REGRAS DE MEDIAS 485 a 768*/
 @media screen and (min-width: 485px) and (max-width: 768px){
   body{
 
@@ -268,7 +268,8 @@ body{
     }
   }
 }
-@media screen and (min-width: 350px) and (max-width: 485px){
+/* REGRAS DE MEDIAS 350 a 484*/
+@media screen and (min-width: 350px) and (max-width: 484px){
   body{
 
     #rodape-logo-all{
@@ -284,6 +285,7 @@ body{
     }
   }
 }
+/* REGRAS DE MEDIAS 2 a 349*/
 @media screen and (min-width: 2px) and (max-width: 349px){
   body{
 

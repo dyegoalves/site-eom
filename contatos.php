@@ -15,20 +15,21 @@ include_once "template/modal.php"
 <div class="section paines-menu-not-pub-vagas">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Menu vagas - pesquisa</h3>
+                                <h3 class="panel-title">Dados para contato</h3>
                             </div>
                             <div class="panel-body painel-menu">
-                                <ul class="nav">
-                                    <li><a href="#">Por Data</a></li>
-                                    <li><a href="#">Por Cargo</a></li>
-                                    <li><a href="#">Por Area</a></li>
-                                    <li><a href="#">Por Tipo</a></li>
-                                </ul>
+                                <p><i class="fa fa-industry"></i> Empresa: EOM - Empregos Oportunidades Manaus</p>
+                                <p><i class="fa fa-flag"></i> Cidade: Manaus</p>
+                                <p><i class="fa fa-flag"></i> Estado: Amazonas</p>
+                                <p><i class="fa fa-envelope"></i> Email: Dyego.santos.alves@gmail.com</p>
+                                <p><i class="fa fa-facebook-official"></i> Grupo Facebook: https://www.facebook.com/groups/manaus.eom</p>
+                                <p><i class="fa fa-skype"></i> Skype: env.dyegoalves</p>
+                                <p><i class="fa fa-calendar-plus-o"></i> Data de inauguração:  21/07/2015</p>
                             </div>
                         </div>
                     </div>
@@ -37,43 +38,33 @@ include_once "template/modal.php"
                     <div class="col-md-12">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Noticias</h3>
+                                <h3 class="panel-title">Hitoria do grupo</h3>
                             </div>
                             <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec scelerisque urna. Mauris sagittis nulla nec ex luctus hendrerit. Proin in turpis quis quam hendrerit blandit vitae sed quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus et ipsum eros. Nulla eu est ut </p>
+
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">Publicidade</h3>
-                            </div>
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
             <div class="col-md-1"></div>
-            <div class="col-md-7">
+
+            <div class="col-md-6">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Vagas do dia </h3>
+                        <h3 class="panel-title">Endereço</h3>
                     </div>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
-                        <br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
-                        <br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
-                        <br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
+
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCOHh8MzNR1RPptYEEUseeGxROe6LJm5rg
+                                    &amp;q=rua+3 de marco+69048500,manaus+am" allowfullscreen="" frameborder="0" height="500" width="400">
+                            </iframe>
+
+                        </div>
+
                     </div>
                 </div>
             </div>
