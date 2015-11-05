@@ -1,0 +1,195 @@
+@font-face {
+  font-family: squada-one;
+  src: url(../fonts/SquadaOne-Regular.ttf); }
+body {
+  /* BASE GERAL DO SITE*/
+  color: #666B6E !important;
+  background-image: url("../img/fundo-body.gif");
+  font-size: 13px;
+  /* Pagina curso.php Configuracoes css3*/ }
+  body > #menutop {
+    background: #FFF;
+    border: none;
+    font-family: Arial;
+    font-size: 15px;
+    border-bottom: solid 1px #eaeaea; }
+    body > #menutop > .container > #navbar > ul > li > :hover {
+      background: #53A7D1;
+      color: #ffffff;
+      border-bottom: solid 2px #1b6d85;
+      transition-duration: 0.5s; }
+    body > #menutop > .container > #navbar > ul > li .active {
+      color: #fff; }
+    body > #menutop > .container > #navbar > ul > li > a {
+      border-left: solid 1px #eaeaea;
+      border-right: solid 1px #eaeaea;
+      padding-top: 15px;
+      text-align: center;
+      width: 130px;
+      height: 55px;
+      font-family: Arial;
+      color: #666B6E; }
+    body > #menutop #li-login #link-login {
+      padding-top: 10px;
+      padding-left: 0;
+      padding-right: 0; }
+      body > #menutop #li-login #link-login #img-login {
+        color: #1b6d85;
+        width: 34px;
+        height: 34px;
+        margin-right: -12px; }
+  body > .navbar-default .navbar-nav > .active > a, body .navbar-default .navbar-nav > .active > a:focus, body .navbar-default .navbar-nav > .active > a:hover {
+    background: #53A7D1;
+    color: #fff !important;
+    border-bottom: solid 2px #1b6d85; }
+  body > .logo {
+    background: #fff;
+    height: 200px;
+    margin-top: 40px; }
+    body > .logo > .container > .row > .logo-box-img {
+      margin-top: 80px; }
+      body > .logo > .container > .row > .logo-box-img > .logo-img > img {
+        display: inline-block; }
+      body > .logo > .container > .row > .logo-box-img > .logo-p > p {
+        display: inline-block;
+        color: #9F9F9F;
+        font-family: Arial;
+        font-size: 14px; }
+  body > .pesquisa {
+    background: #fff;
+    height: 50px;
+    margin-bottom: 30px; }
+    body > .pesquisa .container .row {
+      margin-top: 5px; }
+      body > .pesquisa .container .row .pesquisa-box-all .pesquisa-box-input-bt input, body > .pesquisa .container .row .pesquisa-box-all .pesquisa-box-input-bt input:focus {
+        border-radius: 0px;
+        outline: none; }
+      body > .pesquisa .container .row .pesquisa-box-all .pesquisa-box-input-bt img {
+        width: 17px;
+        height: 17px; }
+      body > .pesquisa .container .row .pesquisa-box-all .pesquisa-box-input-bt button {
+        border-radius: 0px; }
+  body > .tarja-section {
+    margin-top: -20px;
+    margin-bottom: 20px; }
+    body > .tarja-section > .tarja-container .tarja-linha .tarja-box-all h3 {
+      color: #848a8d; }
+      body > .tarja-section > .tarja-container .tarja-linha .tarja-box-all h3 span {
+        background: #53A7D1; }
+  body > .paines-menu-not-pub-vagas .panel {
+    border-radius: 0px;
+    border: solid 1px #dddddd; }
+    body > .paines-menu-not-pub-vagas .panel .panel-heading {
+      text-align: center;
+      padding: 10px 15px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      background: #53A7D1;
+      border: solid 1px #dddddd; }
+    body > .paines-menu-not-pub-vagas .panel .painel-menu ul li a {
+      color: #666B6E !important; }
+  body > .rodape {
+    background: #ffffff;
+    height: 300px; }
+    body > .rodape .rodape-logo-all {
+      margin-top: 50px; }
+      body > .rodape .rodape-logo-all p {
+        font-family: arial, verdana, sans-serif;
+        color: #666B6E;
+        margin: 0; }
+        body > .rodape .rodape-logo-all p span {
+          color: #52A6D1;
+          font-family: arial, verdana, sans-serif;
+          font-size: 40px; }
+    body > .rodape .rodape-menu-all {
+      margin-top: 60px;
+      padding-left: 160px;
+      margin-right: -20px;
+      margin-left: 10px; }
+      body > .rodape .rodape-menu-all ul li {
+        list-style-type: none;
+        font-family: "Squada One",cursive;
+        font-size: 16px; }
+        body > .rodape .rodape-menu-all ul li a {
+          font-family: squada-one;
+          color: #676B6F;
+          padding: 0px 10px;
+          border-left: solid 1px #000000;
+          border-radius: 0; }
+        body > .rodape .rodape-menu-all ul li :hover {
+          color: #52A6D1;
+          background: none; }
+    body > .rodape #li-vagas {
+      font-family: squada-one;
+      color: #676B6F;
+      padding: 0px 10px;
+      border-left: none;
+      border-radius: 0; }
+      body > .rodape #li-vagas:hover {
+        color: #52A6D1;
+        background: none; }
+    body > .rodape #li-equipe {
+      font-family: squada-one;
+      color: #676B6F;
+      padding: 0px 10px;
+      border-left: solid 1px #000000;
+      border-radius: 0;
+      text-align: left; }
+      body > .rodape #li-equipe:hover {
+        color: #52A6D1;
+        background: none; }
+  body .nav-pills > li.active > a, body .nav-pills > li.active > a:focus, body .nav-pills > li.active > a:hover {
+    background: none;
+    color: #53A7D1 !important; }
+  body .curso-box-all {
+    border: 1px solid #DDD;
+    margin-top: 10px;
+    padding-bottom: 10px; }
+    body .curso-box-all .titulo-centro {
+      margin: 0;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-align: center;
+      border-bottom: 1px solid #DDD; }
+    body .curso-box-all .p-titulo {
+      margin: 0px;
+      padding: 5px 0px;
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 14px;
+      color: #545c5f !important; }
+    body .curso-box-all .p-texto {
+      margin: 0px;
+      font-family: arial, verdana, sans-serif;
+      font-size: 12px;
+      color: #676B6F !important;
+      padding-bottom: 5px; }
+    body .curso-box-all img {
+      text-align: center;
+      margin-top: 30px; }
+
+/* - REGRAS DE MEDIAS - */
+@media screen and (min-width: 485px) and (max-width: 768px) {
+  body #rodape-logo-all {
+    margin-top: 20px; }
+  body #rodape-menu-all {
+    margin-top: 10px;
+    padding-left: 1px; } }
+@media screen and (min-width: 350px) and (max-width: 485px) {
+  body #rodape-logo-all {
+    margin-top: 6px; }
+  body #rodape-menu-all {
+    margin-right: -20px;
+    margin-top: 8px;
+    margin-left: 5px;
+    padding-left: 0px; } }
+@media screen and (min-width: 2px) and (max-width: 349px) {
+  body #rodape-logo-all {
+    margin-top: 2px; }
+  body #rodape-menu-all {
+    margin-top: 2px;
+    margin-left: 8px;
+    padding-left: 0px; } }
+
+/*# sourceMappingURL=estilo.css.map */
