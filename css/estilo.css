@@ -169,7 +169,7 @@ body {
       text-align: center;
       margin-top: 30px; }
 
-/* - REGRAS DE MEDIAS - */
+/* REGRAS DE MEDIAS */
 @media screen and (min-width: 485px) and (max-width: 768px) {
   body #rodape-logo-all {
     margin-top: 20px; }
