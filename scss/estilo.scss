@@ -257,10 +257,8 @@ body{
 /* REGRAS DE MEDIAS 485 a 768*/
 @media screen and (min-width: 485px) and (max-width: 768px){
   body{
-
     #rodape-logo-all{
       margin-top: 20px;
-
     }
     #rodape-menu-all{
       margin-top: 10px;
@@ -271,27 +269,22 @@ body{
 /* REGRAS DE MEDIAS 350 a 484*/
 @media screen and (min-width: 350px) and (max-width: 484px){
   body{
-
     #rodape-logo-all{
       margin-top: 6px;
-
     }
     #rodape-menu-all{
       margin-right: -20px;
       margin-top: 8px;
       margin-left: 5px;
       padding-left: 0px;
-
     }
   }
 }
 /* REGRAS DE MEDIAS 2 a 349*/
 @media screen and (min-width: 2px) and (max-width: 349px){
   body{
-
     #rodape-logo-all{
       margin-top: 2px;
-
     }
     #rodape-menu-all{
       margin-top: 2px;
