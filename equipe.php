@@ -11,71 +11,105 @@ include_once "template/modal.php"
         </div>
     </div>
 </div>
-<div class="section paines-menu-not-pub-vagas">
-    <div class="container">
+
+<div class="section equipe-box-all-section">
+    <div class="container  titulo-box">
         <div class="row">
-            <div class="col-md-4">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">Menu vagas - pesquisa</h3>
-                            </div>
-                            <div class="panel-body painel-menu">
-                                <ul class="nav">
-                                    <li><a href="#">Por Data</a></li>
-                                    <li><a href="#">Por Cargo</a></li>
-                                    <li><a href="#">Por Area</a></li>
-                                    <li><a href="#">Por Tipo</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">Noticias</h3>
-                            </div>
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">Publicidade</h3>
-                            </div>
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div  class="col-md-12">
+                <p class="text-center" id="titulo">    Esses são os membros responsaveis pelas as divulgações e pesquisas do site.   </p>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-7">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Vagas do dia </h3>
-                    </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
-                        <br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
-                        <br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
-                        <br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget purus mauris. Maecenas id quam porttitor, dictum turpis id, molestie felis. Vivamus dapibus libero sit amet consectetur mattis. Praesent porttitor consequat nisi, eget luctus ipsum rhoncus id. Fusce sed tincidunt sem. Donec hendrerit justo sit amet felis fermentum faucibus. Duis feugiat nibh augue, sit amet consequat nulla pharetra sit amet. Phasellus eget lacus laoreet, condimentum dolor rutrum, commodo risus. Proin vitae nulla eu nisl vulputate tristique. Sed gravida augue in diam mattis porttitor. Nunc fringilla, risus ut feugiat dictum, arcu sem molestie ante, sed pharetra nunc felis quis tortor. Donec vulputate erat consectetur, scelerisque eros sit amet, eleifend sapien.</p>
+        </div>
+
+        <div class="row  equipe-box-all-img-row">
+
+            <div class="container col-md-12 espaco-baixo">
+                <div class="col-md-2"></div>
+                <div class="col-md-1"></div>
+
+                <div class="col-md-2 equipe-box-img">
+                    <img src="img/pdyego.jpg"
+                         class="center-block img img-responsive">
+                    <h3 class="text-center">Dyego Alves</h3>
+                    <p class="text-center">Administrador / Developer</p>
+                    <div style="text-align: center">
+                        <a href=""><img class="img-thumbnail" src="img/fb.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/tt.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/inst.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/wt.png" alt=""/></a>
                     </div>
                 </div>
+
+                <div class="col-md-2 equipe-box-img">
+                    <img src="img/pjack.jpg"
+                         class="center-block img img-responsive">
+                    <h3 class="text-center">Jack Correa</h3>
+                    <p class="text-center">Administradora</p>
+                    <div style="text-align: center">
+                        <a href=""><img class="img-thumbnail" src="img/fb.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/tt.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/inst.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/wt.png" alt=""/></a>
+                    </div>
+                </div>
+                <div class="col-md-2 equipe-box-img">
+                    <img src="img/pandria.jpg"
+                         class="center-block img img-responsive">
+                    <h3 class="text-center">Andria Souza</h3>
+                    <p class="text-center">Administradora</p>
+                    <div style="text-align: center">
+                        <a href=""><img class="img-thumbnail" src="img/fb.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/tt.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/inst.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/wt.png" alt=""/></a>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-1"></div>
             </div>
+
+            <div class="container col-md-12 espaco-baixo">
+                <div class="col-md-2"></div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2 equipe-box-img">
+                    <img src="img/ptahy.jpg"
+                         class="center-block img img-responsive">
+                    <h3 class="text-center">Thayane Souza</h3>
+                    <p class="text-center">Moderadora</p>
+                    <div style="text-align: center">
+                        <a href=""><img class="img-thumbnail" src="img/fb.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/tt.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/inst.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/wt.png" alt=""/></a>
+                    </div>
+                </div>
+                <div class="col-md-2 equipe-box-img">
+                    <img src="img/panne.jpg"
+                         class="center-block img img-responsive">
+                    <h3 class="text-center">Anne Correa</h3>
+                    <p class="text-center">Moderadora</p>
+                    <div style="text-align: center">
+                        <a href=""><img class="img-thumbnail" src="img/fb.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/tt.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/inst.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/wt.png" alt=""/></a>
+                    </div>
+                </div>
+                <div class="col-md-2 equipe-box-img">
+                    <img src="img/prod.jpg"
+                         class="center-block img img-responsive">
+                    <h3 class="text-center">Rôdrigo Santos</h3>
+                    <p class="text-center">Moderador</p>
+                    <div style="text-align: center">
+                        <a href=""><img class="img-thumbnail" src="img/fb.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/tt.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/inst.jpg" alt=""/></a>
+                        <a href=""><img class="img-thumbnail" src="img/wt.png" alt=""/></a>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-1"></div>
+            </div>
+
         </div>
     </div>
 </div>

@@ -7,7 +7,8 @@ body {
   color: #666B6E !important;
   background-image: url("../img/fundo-body.gif");
   font-size: 13px;
-  /* Pagina curso.php Configuracoes css3*/ }
+  /* Pagina curso.php Configuracoes css3*/
+  /* Pargina Equipe.php css*/ }
   body > #menutop {
     background: #FFF;
     border: none;
@@ -169,6 +170,24 @@ body {
     body .curso-box-all img {
       text-align: center;
       margin-top: 30px; }
+  body .equipe-box-all-section {
+    margin-bottom: 80px; }
+    body .equipe-box-all-section .titulo-box .row #titulo {
+      font-family: arial, verdana, sans-serif;
+      font-size: 16px;
+      border-bottom: solid 1px #aeaeae;
+      margin-bottom: 20px;
+      margin-top: 20px; }
+    body .equipe-box-all-section .equipe-box-all-img-row .equipe-box-img {
+      border: 1px solid #ddd;
+      padding: 10px 5px;
+      background: #fff;
+      margin-left: 2px;
+      margin-top: 10px; }
+    body .equipe-box-all-section .equipe-box-all-img-row h3 {
+      font-size: 20px; }
+    body .equipe-box-all-section .espaco-baixo {
+      margin-top: 3px; }
 
 /* REGRAS DE MEDIAS 485 a 768*/
 @media screen and (min-width: 485px) and (max-width: 768px) {
