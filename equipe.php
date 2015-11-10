@@ -40,7 +40,7 @@ include_once "template/modal.php"
                 </div>
 
                 <div class="col-md-2 equipe-box-img">
-                    <img src="img/pjack.jpg"
+                    <img src="img/pjack.png"
                          class="center-block img img-responsive">
                     <h3 class="text-center">Jack Correa</h3>
                     <p class="text-center">Administradora</p>

@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="Dyego Alves" content="EOM">
     <link rel="icon" href="../../favicon.ico">
-    <title>EOM VAGAS</title>
+    <title>EOM - Manaus</title>
     <!-- Bootstrap core CSS -->
     <!--<link href="css/bootstrap-theme.min.css" rel="stylesheet">-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
