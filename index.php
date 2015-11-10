@@ -101,7 +101,7 @@ include_once "template/modal.php";
                             <h3 class="panel-title">Vagas do dia </h3>
                         </div>
                         <div class="panel-body">
-                         <h1>Area em desemvolvimento, quando a mesma estiver pronta sera anunciada no grupo do facebook</h1>
+                         <h1>Área em desemvolvimento, quando a mesma estiver pronta será anunciada no grupo do Facebook EOM Manaus</h1>
                         </div>
                     </div>
                 </div>
