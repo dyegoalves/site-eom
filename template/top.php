@@ -15,9 +15,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
-
-
-
 </head>
 <body>
 <nav class="navbar navbar-fixed-top navbar-default" id="menutop">
