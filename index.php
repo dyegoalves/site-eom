@@ -1,6 +1,6 @@
 <?php
 include_once "template/top.php";
-include_once "template/modal.php"
+include_once "template/modal.php";
 ?>
 
 <div class="section tarja-section">

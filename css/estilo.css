@@ -8,7 +8,8 @@ body {
   background-image: url("../img/fundo-body.gif");
   font-size: 13px;
   /* Pagina curso.php Configuracoes css3*/
-  /* Pargina Equipe.php css*/ }
+  /* Pargina Equipe.php css*/
+  /* Pagina Parcerio.php css*/ }
   body > #menutop {
     background: #FFF;
     border: none;
@@ -188,6 +189,25 @@ body {
       font-size: 20px; }
     body .equipe-box-all-section .espaco-baixo {
       margin-top: 3px; }
+  body .nosso-parceiros-box-all-l1 {
+    padding: 0; }
+    body .nosso-parceiros-box-all-l1 .nosso-parceiros-box-img-titulo-p {
+      padding: 0;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-left: 1px solid rgba(207, 200, 201, 0.3);
+      border-bottom: 2px solid rgba(207, 200, 201, 0.3);
+      border-top: 2px solid rgba(207, 200, 201, 0.3);
+      border-right: 1px solid rgba(207, 200, 201, 0.3); }
+      body .nosso-parceiros-box-all-l1 .nosso-parceiros-box-img-titulo-p p.titulo {
+        margin: 0;
+        padding-top: 1px;
+        padding-left: 5px;
+        font-weight: bold; }
+      body .nosso-parceiros-box-all-l1 .nosso-parceiros-box-img-titulo-p p.paragrafo {
+        margin: 0;
+        padding-top: 1px;
+        padding-left: 5px; }
 
 /* REGRAS DE MEDIAS 485 a 768*/
 @media screen and (min-width: 485px) and (max-width: 768px) {

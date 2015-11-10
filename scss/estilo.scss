@@ -1,6 +1,6 @@
 /*Imports de fontes*/
 @font-face {
-  font-family: squada-one;
+  font-family:squada-one;
   src: url(../fonts/SquadaOne-Regular.ttf);
 }
 body{
@@ -283,6 +283,34 @@ body{
       margin-top: 3px;
     }
     }
+    /* Pagina Parcerio.php css*/
+
+    .nosso-parceiros-box-all-l1{
+      padding: 0;
+      .nosso-parceiros-box-img-titulo-p{
+        $largura-borda: 0.3;
+        padding: 0;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-left: 1px solid rgba(207, 200, 201, $largura-borda);
+        border-bottom: 2px solid rgba(207, 200, 201, $largura-borda);
+        border-top: 2px solid rgba(207, 200, 201, $largura-borda);
+        border-right: 1px solid rgba(207, 200, 201, $largura-borda);
+        p.titulo{
+        margin: 0;
+        padding-top: 1px;
+        padding-left: 5px;
+        font-weight: bold;
+        }
+        p.paragrafo{
+        margin: 0;
+        padding-top: 1px;
+        padding-left: 5px;
+        }
+      }
+    }
+
+
 }
 /* REGRAS DE MEDIAS 485 a 768*/
 @media screen and (min-width: 485px) and (max-width: 768px){
