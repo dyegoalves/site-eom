@@ -7,13 +7,16 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="Dyego Alves" content="EOM">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="shortcut icon" href="img/eom-favicon.png" type="image/x-icon">
+    <link rel="icon" href="img/eom-favicon.png" type="image/x-icon">
     <title>EOM - Manaus</title>
     <!-- Bootstrap core CSS -->
     <!--<link href="css/bootstrap-theme.min.css" rel="stylesheet">-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
+
+
 
 </head>
 <body>
