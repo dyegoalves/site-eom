@@ -6,7 +6,9 @@
  * Time: 03:29
  */
 
-class conectar {
+include_once 'base_config.php';
+
+class conectar extends base_config {
 
     public static  $con;
 
