@@ -208,6 +208,20 @@ body {
         margin: 0;
         padding-top: 1px;
         padding-left: 5px; }
+  body .modal {
+    text-align: center;
+    padding: 0 !important; }
+  body .modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+    /* Adjusts for spacing */ }
+  body .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle; }
 
 /* REGRAS DE MEDIAS 485 a 768*/
 @media screen and (min-width: 485px) and (max-width: 768px) {

@@ -5,19 +5,21 @@
  * Date: 29/06/2015
  * Time: 07:57
  */
-require_once "config/conectar.php";
+require_once "config/db.php";
 
-class login extends conectar
-{
-    public $log_tab_login = "login";
+class login extends dbconect {
+    /*Tabela Login*/
     private $log_id;
     private $log_nome;
     private $log_email;
     private $log_usuario;
     private $log_senha;
-    private $log_usuario_cad;
+    private $log_nivel;
     private $log_data_cad;
-
+    private $admin_adm_id;
+    /*Tabela admin*/
+    private $adm_user_cad;
+   /*Tabelas*/
     public function getLog_id(){
         return $this->log_id;
     }
@@ -48,11 +50,11 @@ class login extends conectar
     public function setLog_senha($log_senha){
         $this->log_senha = $log_senha;
     }
-    public function getLog_usuario_cad(){
-        return $this->log_usuario_cad;
+    public function getLog_nivel(){
+        return $this->log_nivel;
     }
-    public function setLog_usuario_cad($log_usuario_cad){
-        $this->log_usuario_cad = $log_usuario_cad;
+    public function setLog_nivel($log_nivel){
+        $this->log_nivel = $log_nivel;
     }
     public function getLog_data_cad(){
         return $this->log_data_cad;
@@ -60,12 +62,38 @@ class login extends conectar
     public function setLog_data_cad($log_data_cad){
         $this->log_data_cad = $log_data_cad;
     }
-
-    public function todos_registro($sql){
-        $exc = conectar::prepare($sql);
-        $exc->execute();
-        return $exc->fetchAll();
+    public function getAdmin_adm_id(){
+        return $this->admin_adm_id;
     }
-}
+    public function setAdmin_adm_id($admin_adm_id){
+        $this->admin_adm_id = $admin_adm_id;
+    }
+    //Nome do admin cadastrando.
+    public function getAdm_user_cad(){
+        return $this->adm_user_cad;
+    }
+    public function setAdm_user_cad($adm_user_cad){
+    $this->adm_user_cad = $adm_user_cad;
+    }
+    // Fim do block */
 
+    public function todos(){
+        $sql = "SELECT * FROM login";
+        $exct = dbconect::prepare($sql);
+        $exct->execute();
+        return $exct->fetchAll();
+    }
+
+    public function logar_usuario(){
+        $sql = 'SELECT * FROM login WHERE log_usuario = ? AND  log_senha = ?';
+        $exc =dbconect::prepare($sql);
+        $exc->bindParam(1,$this->log_usuario);
+        $exc->bindParam(2,$this->log_senha);
+        $exc->execute();
+        return $exc->rowCount();
+    }
+
+
+
+}
 ?>

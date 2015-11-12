@@ -10,16 +10,18 @@
                 <div class="modal-body">
                     <div class="form-group">
                         <label for="user">Usuario:</label>
-                        <input type="text" class="form-control" id="user">
+                        <input type="text" class="form-control" name="log_usuario" id="log_usuario">
                     </div>
                     <div class="form-group">
                         <label for="user">Senha:</label>
-                        <input type="text" class="form-control" id="user">
+                        <input type="text" class="form-control" name="log_senha" id="log_senha">
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="submit" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                    <button type="submit" class="btn btn-success">Entrar</button>
+                   <!-- <button type="submit" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    <button type="submit" class="btn btn-success">Entrar</button>-->
+                    <input type="button" name="Fechar" value="Fechar" class="btn btn-default" data-dismiss="modal">
+                    <input type="submit" name="Entrar" value="Entrar" class="btn btn-success">
                 </div>
             </div>
         </div>
