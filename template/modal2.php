@@ -20,7 +20,7 @@
 
 <div class="bs-example">
     <div id="top" class="modal fade" data-backdrop="static">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-sm">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" id="bt_modal2" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>

@@ -10,11 +10,11 @@
                 <div class="modal-body">
                     <div class="form-group">
                         <label for="user">Usuario:</label>
-                        <input type="text" class="form-control" name="log_usuario" id="log_usuario">
+                        <input type="text" required class="form-control" name="log_usuario" id="log_usuario">
                     </div>
                     <div class="form-group">
                         <label for="user">Senha:</label>
-                        <input type="text" class="form-control" name="log_senha" id="log_senha">
+                        <input type="text" required class="form-control" name="log_senha" id="log_senha">
                     </div>
                 </div>
                 <div class="modal-footer">
