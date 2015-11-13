@@ -7,7 +7,6 @@
  */
 
 class base_config {
-
     public  function  converte_us_br($data , $qual_tipo_data){
     /* funcao Converte_us_br BR > US e US>BR
      * Recebe 2 paramentros de entrada a data e o tipo data
@@ -24,5 +23,4 @@ class base_config {
            return $data_br;
        endif;
     }
-
-} 
+}

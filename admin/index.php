@@ -1,8 +1,8 @@
 <?php
 session_start();
-if(!isset($_SESSION['logado']) || $_SESSION['logado'] == false){
+if(!isset($_SESSION['logado']) || $_SESSION['logado'] == false):
     header("location: ../index.php");
-}
+endif;
 /**
  * Created by PhpStorm.
  * User: Dyego

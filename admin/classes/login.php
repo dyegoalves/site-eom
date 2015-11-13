@@ -19,6 +19,7 @@ class login extends dbconect {
     private $admin_adm_id;
     /*Tabela admin*/
     private $adm_user_cad;
+
    /*Tabelas*/
     public function getLog_id(){
         return $this->log_id;
@@ -76,23 +77,22 @@ class login extends dbconect {
     $this->adm_user_cad = $adm_user_cad;
     }
     // Fim do block */
+    private $sql_listar_todos  = 'SELECT * FROM login';
+    private $sql_logar_usuario = 'SELECT * FROM login WHERE log_usuario = ? AND  log_senha = ?';
 
-    public function todos(){
-        $sql = "SELECT * FROM login";
-        $exct = dbconect::prepare($sql);
+    public function log_listar_all(){
+        $exct = dbconect::prepare($this->sql_listar_todos);
         $exct->execute();
         return $exct->fetchAll();
     }
 
-    public function logar_usuario(){
-        $sql = 'SELECT * FROM login WHERE log_usuario = ? AND  log_senha = ?';
-        $exc =dbconect::prepare($sql);
+    public function log_usuario(){
+        $exc =dbconect::prepare($this->sql_logar_usuario);
         $exc->bindParam(1,$this->log_usuario);
         $exc->bindParam(2,$this->log_senha);
         $exc->execute();
         return $exc->rowCount();
     }
-
 
 
 }

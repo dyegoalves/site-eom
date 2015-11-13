@@ -14,13 +14,12 @@ session_start();
     if(isset($operecao) && ($operecao == 'Entrar')):
         $exc_login->setLog_usuario($log_usuario);
         $exc_login->setLog_senha($log_senha);
-        if($exc_login->logar_usuario() == 1):
+        if($exc_login->log_usuario() == 1):
             header("location:index.php");
             $_SESSION['logado'] = true;
          else:
              include "../template/modal2.php";
          endif;
-
     endif;
 
 ?>
