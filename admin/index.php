@@ -1,13 +1,17 @@
 <?php
 session_start();
-if(!isset($_SESSION['logado']) || $_SESSION['logado'] == false):
+if(!isset($_SESSION['logado'])|| $_SESSION['logado'] != 'logado' || (!isset($_SESSION['adm']) || $_SESSION['adm'] != 'adm')):
+    // recupera o nome do identificador de sessão
+        $cookie_name = session_name();
+    // elimina todas as informações relacionadas à sessão atual
+        session_destroy();
+    // encerra o manipulador de sessão
+        session_write_close();
+    // limpa o cookie identificador de sessão
+        setcookie($cookie_name, '', time()-20);
     header("location: ../index.php");
 endif;
-/**
- * Created by PhpStorm.
- * User: Dyego
- * Date: 12/11/2015
- * Time: 15:52
- */
+
 ?>
-<h1>Seja bem vindo ao Sistema</h1>
+
+<h1>Oi bem vindo admin</h1>

@@ -19,7 +19,6 @@ class login extends dbconect {
     private $admin_adm_id;
     /*Tabela admin*/
     private $adm_user_cad;
-
    /*Tabelas*/
     public function getLog_id(){
         return $this->log_id;
@@ -76,24 +75,34 @@ class login extends dbconect {
     public function setAdm_user_cad($adm_user_cad){
     $this->adm_user_cad = $adm_user_cad;
     }
-    // Fim do block */
-    private $sql_listar_todos  = 'SELECT * FROM login';
-    private $sql_logar_usuario = 'SELECT * FROM login WHERE log_usuario = ? AND  log_senha = ?';
+    private $slt  = 'SELECT * FROM login';
+    private $slul = 'SELECT log_nivel FROM login WHERE log_usuario = ?';
+    private $slu  = 'SELECT * FROM login WHERE log_usuario = ? AND  log_senha = ?';
+    private $sl1  = 'SELECT * FROM login WHERE  log_usuario = ?';
 
-    public function log_listar_all(){
-        $exct = dbconect::prepare($this->sql_listar_todos);
-        $exct->execute();
-        return $exct->fetchAll();
+    public function listar_t(){
+        $exc =dbconect::prepare($this->slt);
+        $exc->execute();
+        return $exc->fetchAll();
     }
-
-    public function log_usuario(){
-        $exc =dbconect::prepare($this->sql_logar_usuario);
-        $exc->bindParam(1,$this->log_usuario);
-        $exc->bindParam(2,$this->log_senha);
+    public function listar_1(){
+        $exc =dbconect::prepare($this->sl1);
+        $exc->bindValue(1,$this->log_usuario);
+        $exc->execute();
+        return $exc->fetchAll();
+    }
+    public function listar_a_m(){
+        $exct = dbconect::prepare($this->slul);
+        $exct->bindValue(1,$this->log_usuario);
+        $exct->execute();
+        return $exct->fetchColumn();
+    }
+    public function listar_u(){
+        $exc =dbconect::prepare($this->slu);
+        $exc->bindValue(1,$this->log_usuario);
+        $exc->bindValue(2,$this->log_senha);
         $exc->execute();
         return $exc->rowCount();
     }
-
-
 }
 ?>

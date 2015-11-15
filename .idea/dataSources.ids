@@ -1,82 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source name="MySQL - banco_site_eom@localhost" uuid="0445e1fe-1ece-46f3-bf11-acb6a72dfada">
+  <data-source name="MySQL - banco_eom@localhost" uuid="7f8f1227-b0b3-439f-962c-3a2ec369f865">
     <database-info product="MySQL" version="5.6.17" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
     </database-info>
     <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
-    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.2">
-      <schema id="1" name="banco_site_eom"/>
-      <table id="2" parent="1" name="admin"/>
-      <table id="3" parent="1" name="login"/>
-      <column id="4" parent="2" name="adm_id">
-        <mandatory>1</mandatory>
-        <data-type>int(11)</data-type>
-      </column>
-      <column id="5" parent="2" name="adm_nome">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="6" parent="2" name="adm_nivel">
-        <mandatory>1</mandatory>
-        <data-type>int(1)</data-type>
-      </column>
-      <column id="7" parent="2" name="adm_user_cad">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="8" parent="2" name="adm_data_cad">
-        <mandatory>1</mandatory>
-        <data-type>datetime</data-type>
-      </column>
-      <key id="9" parent="2" name="PRIMARY">
-        <columns>adm_id</columns>
-        <primary>1</primary>
-      </key>
-      <column id="10" parent="3" name="log_id">
-        <mandatory>1</mandatory>
-        <data-type>int(11)</data-type>
-      </column>
-      <column id="11" parent="3" name="log_nome">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="12" parent="3" name="log_email">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="13" parent="3" name="log_usuario">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="14" parent="3" name="log_senha">
-        <mandatory>1</mandatory>
-        <data-type>varchar(255)</data-type>
-      </column>
-      <column id="15" parent="3" name="log_nivel">
-        <mandatory>1</mandatory>
-        <data-type>int(1)</data-type>
-      </column>
-      <column id="16" parent="3" name="log_data_cad">
-        <mandatory>1</mandatory>
-        <data-type>datetime</data-type>
-      </column>
-      <column id="17" parent="3" name="admin_adm_id">
-        <mandatory>1</mandatory>
-        <data-type>int(11)</data-type>
-      </column>
-      <key id="18" parent="3" name="PRIMARY">
-        <columns>log_id
-admin_adm_id</columns>
-        <primary>1</primary>
-      </key>
-      <foreign-key id="19" parent="3" name="fk_login_admin">
-        <columns>admin_adm_id</columns>
-        <ref-key>admin.PRIMARY</ref-key>
-        <cascade-update-rule>restrict</cascade-update-rule>
-        <cascade-delete-rule>restrict</cascade-delete-rule>
-      </foreign-key>
-    </database-model>
+    <schema name="" catalog="banco_eom"/>
+    <table name="admin" schema="" catalog="banco_eom" type="TABLE">
+      <column name="adm_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="adm_nome" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="adm_nivel" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="adm_user_cad" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="adm_data_cad" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="adm_id"/>
+      <exported-key name="fk_login_admin" table="login" schema="" catalog="banco_eom" columns="admin_adm_id"/>
+    </table>
+    <table name="login" schema="" catalog="banco_eom" type="TABLE">
+      <column name="log_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="log_nome" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="log_email" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="log_usuario" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="log_senha" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="log_nivel" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="log_data_cad" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="admin_adm_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="log_id,admin_adm_id"/>
+      <foreign-key name="fk_login_admin" columns="admin_adm_id" ref-table="admin" ref-schema="" ref-catalog="banco_eom" ref-columns="adm_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="fk_login_admin_idx" unique="false" columns="admin_adm_id"/>
+    </table>
   </data-source>
 </component>

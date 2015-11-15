@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once "template/top.php";
 include_once "template/modal.php";
 ?>

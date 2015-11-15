@@ -21,7 +21,7 @@
                    <!-- <button type="submit" class="btn btn-default" data-dismiss="modal">Fechar</button>
                     <button type="submit" class="btn btn-success">Entrar</button>-->
                     <input type="button" name="Fechar" value="Fechar" class="btn btn-default" data-dismiss="modal">
-                    <input type="submit" name="Entrar" value="Entrar" class="btn btn-success">
+                    <input id="btEntrar" type="submit" name="Entrar" value="Entrar" class="btn btn-success">
                 </div>
             </div>
         </div>
