@@ -5,7 +5,6 @@
  * Date: 14/11/2015
  * Time: 00:52
  */
-
 session_start();
 if(!isset($_SESSION['logado'])
     || $_SESSION['logado'] != 'logado'

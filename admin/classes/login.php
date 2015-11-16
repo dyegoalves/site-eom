@@ -79,17 +79,19 @@ class login extends dbconect {
     private $slul = 'SELECT log_nivel FROM login WHERE log_usuario = ?';
     private $slu  = 'SELECT * FROM login WHERE log_usuario = ? AND  log_senha = ?';
     private $sl1  = 'SELECT * FROM login WHERE  log_usuario = ?';
+    private $scu  = 'INSERT INTO login (log_nome, log_email, log_usuario, log_senha, log_nivel, log_data_cad, admin_adm_id )
+                     VALUES(?,?,?,?,?,?,?)';
 
     public function listar_t(){
-        $exc =dbconect::prepare($this->slt);
+        $exc = dbconect::prepare($this->slt);
         $exc->execute();
         return $exc->fetchAll();
     }
     public function listar_1(){
-        $exc =dbconect::prepare($this->sl1);
+        $exc = dbconect::prepare($this->sl1);
         $exc->bindValue(1,$this->log_usuario);
         $exc->execute();
-        return $exc->fetchAll();
+        return $exc->fetch();
     }
     public function listar_a_m(){
         $exct = dbconect::prepare($this->slul);
@@ -98,11 +100,26 @@ class login extends dbconect {
         return $exct->fetchColumn();
     }
     public function listar_u(){
-        $exc =dbconect::prepare($this->slu);
+        $exc = dbconect::prepare($this->slu);
         $exc->bindValue(1,$this->log_usuario);
         $exc->bindValue(2,$this->log_senha);
         $exc->execute();
         return $exc->rowCount();
     }
+
+    public  function cadastrar_u(){
+        $exct = dbconect::prepare($this->scu);
+        $exct->bindValue(1,$this->log_nome);
+        $exct->bindValue(2,$this->log_email);
+        $exct->bindValue(3,$this->log_usuario);
+        $exct->bindValue(4,$this->log_senha);
+        $exct->bindValue(5,$this->log_nivel);
+        $exct->bindValue(6,$this->log_data_cad);
+        $exct->bindValue(7,$this->adm_user_cad);// so pode cadastrar se esse cara estiver cadastro na tabela admin
+        return $exct->execute();
+    }
+
+
+
 }
 ?>

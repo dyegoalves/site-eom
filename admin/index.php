@@ -11,7 +11,5 @@ if(!isset($_SESSION['logado'])|| $_SESSION['logado'] != 'logado' || (!isset($_SE
         setcookie($cookie_name, '', time()-20);
     header("location: ../index.php");
 endif;
-
 ?>
-
-<h1>Oi bem vindo admin</h1>
+<h1>Oi bem vindo Administrador</h1>
