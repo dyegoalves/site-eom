@@ -59,11 +59,7 @@ include_once "template/modal.php"
                     <div class="panel-body">
 
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCOHh8MzNR1RPptYEEUseeGxROe6LJm5rg
-                                    &amp;q=rua+3 de marco+69048500,manaus+am" allowfullscreen="" frameborder="0" height="500" width="400">
-                            </iframe>
-
-                        </div>
+                            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=zlZ9UNEDDszg.kETjdZfLW3xg" width="640" height="480"></iframe>                        </div>
 
                     </div>
                 </div>
