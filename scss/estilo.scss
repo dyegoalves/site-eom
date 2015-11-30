@@ -3,6 +3,18 @@
   font-family:squada-one;
   src: url(../fonts/SquadaOne-Regular.ttf);
 }
+@font-face {
+  font-family:'Glyphicons Halflings';
+  src:url(../fonts/glyphicons-halflings-regular.eot);
+  src:url(../fonts/glyphicons-halflings-regular.eot?#iefix)
+  format('embedded-opentype'),
+  url(../fonts/glyphicons-halflings-regular.woff2)
+  format('woff2'),
+  url(../fonts/glyphicons-halflings-regular.woff)
+  format('woff'),
+  url(../fonts/glyphicons-halflings-regular.ttf)
+  format('truetype'),url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+}
 body{
   /* BASE GERAL DO SITE*/
   color: #666B6E !important;
@@ -326,6 +338,27 @@ body{
     display: inline-block;
     text-align: left;
     vertical-align: middle;
+  }
+
+  #logo-eom{
+    background: #53A7D1 none repeat scroll 0% 0%;
+    color: white;
+  }
+  .tarja-section{
+    padding-top: 70px;
+  }
+  .box-espaco{
+    padding-top: 70px;
+  }
+  .espaco{
+    height: 450px;
+  }
+  footer{
+    background: rgba(0, 108, 194, 0.69);
+    color: white;
+    width: auto;
+    height: 250px;
+    bottom:0;
   }
 }
 /* REGRAS DE MEDIAS 485 a 768*/

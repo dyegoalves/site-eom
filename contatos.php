@@ -60,7 +60,6 @@ include_once "template/modal.php"
 
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=zlZ9UNEDDszg.kETjdZfLW3xg" width="640" height="480"></iframe>                        </div>
-
                     </div>
                 </div>
             </div>
